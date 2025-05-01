@@ -1,1 +1,9 @@
-# Bot
+# ⚙️ Cách build và chạy
+# 1.Build VPS image:
+
+docker build -t vps-image -f Dockerfile.vps .
+
+# 2.Chạy bot:
+
+pip install -r requirements.txt
+python bot.py
